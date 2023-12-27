@@ -25,3 +25,10 @@ function addGuest3Point(){
     guestscorepoint += 3
     document.getElementById("guestScore").textContent = guestscorepoint
 }
+
+function resetScore(){
+    homescorepoint = 0
+    guestscorepoint = 0
+    document.getElementById("homeScore").textContent =homescorepoint 
+    document.getElementById("guestScore").textContent = guestscorepoint
+}
